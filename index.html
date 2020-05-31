@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--  window settings 
+    -------------------------------------------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do appt</title>
+
+    <!-- external links
+    -------------------------------------------->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!--Main app
+        ------------------------->
+        <div class="to-do-app">
+
+            <!-- Input filed
+            ------------------------->
+            <div class="input-section">
+                <input type="text" id="input-field" placeholder="Enter your task here" class="input-box">
+                <input type="button" value="+" class="add-btn" id="add-btn">
+            </div>
+
+            <!-- List items
+            ------------------------->
+            <div class="item-list-section">
+                <div class="drop-down">Today</div>
+
+                <!-- in-commpleted task list
+                --------------------------------->
+                <ul class="items" id="items">
+                    <li class="item">
+                        <input type="checkbox" class="checkbox">
+                        <label for="todo-items">Lorem ipsum dolor set amet</label>
+                        <input type="button" value="x" class="cancel-btn" id="item1">
+                    </li>
+                    <li class="item">
+                        <input type="checkbox" class="checkbox">
+                        <label for="todo-items">Lorem ipsum dolor set amet</label>
+                        <input type="button" value="x" class="cancel-btn" id="item2">
+                    </li>
+                </ul>
+
+                <!-- commpleted task list
+                --------------------------------->
+                <ul class="items" id="itemsDone">
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script src=" script.js "></script>
+
+</body>
+
+</html>
