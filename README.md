@@ -6,7 +6,7 @@ This project was build using only HTML|CSS|JS and not have used any other third 
 
 # Screen shots of the project
 * Staring interface when user opens the apllication
-  * ![Screenshot](to-do-app_1.png)
+  - ![Screenshot](to-do-app_1.png)
 * Interface when user bymistake enters submit without entering the task
   * ![Screenshot](to-do-app_2.png)
 * Interface when user wants to delet the task or mark it has a checked
